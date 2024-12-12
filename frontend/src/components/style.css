@@ -1,0 +1,123 @@
+.btnAction .btnAdd {
+  border: 1px solid #199ba4;
+  background: transparent;
+  font-size: 16px;
+  color: #199ba4;
+  box-shadow: none;
+  border-radius: 8px;
+}
+.btnAction .btnAdd:hover {
+  background-color: #199ba4;
+  color: #fff;
+}
+.btnAction {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  padding: 20px 0;
+}
+.tabMainWrapper {
+  height: 100%;
+}
+.tabMainWrapper .MuiTabs-root .MuiTabs-flexContainer .MuiButtonBase-root {
+  color: #494949;
+}
+.tabMainWrapper
+  .MuiTabs-root
+  .MuiTabs-flexContainer
+  .MuiButtonBase-root.Mui-selected {
+  color: #199ba4;
+}
+
+.tabMainWrapper .MuiTabs-indicator {
+  background: #199ba4;
+}
+.mainTable .MuiTableHead-root .MuiTableRow-head .MuiTableCell-head {
+  background: #494949;
+  color: #fff;
+}
+.mainTable .MuiTableHead-root .MuiTableRow-head .MuiTableCell-head:last-child {
+  text-align: center;
+}
+.mainTable .MuiTableBody-root .MuiTableRow-root .MuiTableCell-body:last-child {
+  text-align: center;
+}
+.mainTable
+  .MuiTableBody-root
+  .MuiTableRow-root
+  .MuiTableCell-body:last-child
+  button {
+  text-align: center;
+  border-radius: none;
+  color: #199ba4;
+  border: none;
+}
+.mainTable .MuiTableBody-root .MuiTableRow-root .MuiTableCell-body {
+  padding: 8px 16px;
+}
+.mainTable .MuiTableBody-root .MuiTableRow-root:nth-child(odd) {
+  background: #e4e8ec;
+}
+
+.mainTable
+  .MuiTableBody-root
+  .MuiTableRow-root
+  .MuiTableCell-body:last-child
+  button:hover {
+  color: #494949;
+}
+.treeNodeWrap {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+.modal-wrapper .MuiPaper-root .MuiDialogContent-root {
+  padding: 8px 24px;
+}
+.modal-warpper .MuiDialog-container .MuiPaper-root {
+  width: 100%;
+}
+.modal-warpper .MuiPaper-root .MuiDialogContent-root .MuiFormControl-root {
+  padding: 0 0 16px 0;
+}
+.modal-warpper
+  .MuiPaper-root
+  .MuiDialogContent-root
+  .MuiFormControl-root:last-child {
+  padding: 0;
+}
+.modal-warpper .MuiPaper-root .MuiDialogContent-root .body-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.body-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.edit-modal-wrapper .MuiPaper-root {
+    width: 100%;
+}
+.edit-modal-wrapper .MuiPaper-root .MuiDialogContent-root {
+    padding: 12px 24px;
+}
+.edit-modal-wrapper label[data-shrink=false]+.MuiInputBase-formControl  {
+    color: transparent;
+}
+.edit-employee-modal-wrapper  .MuiPaper-root {
+    width: 100%;
+}
+.edit-employee-modal-wrapper .MuiPaper-root .MuiDialogContent-root {
+    padding: 12px 24px;
+    display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.add-desig-modal .MuiFormControl-root .MuiFormLabel-root{
+    background-color: #fff;
+    padding:0 5px;
+}
