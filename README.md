@@ -94,3 +94,5 @@ This will start the React development server, typically available at `http://loc
 ## GIF Preview
 Attached is a working gif file that demonstrates the functionality of the organization hierarchy system.
 
+![organization-hi](https://github.com/user-attachments/assets/9a5e8d6e-aa04-4eeb-9f43-d7d25f582d6b)
+
